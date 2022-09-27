@@ -10,6 +10,7 @@ public class TestMessageBuilder {
     public void testHelloWorld() {
         System.out.println("testHelloWorld");
         assertEquals("hello world", MessageBuilder.getHelloWorld());
+        System.out.println("after testHelloWorld");
     }
 
     @Test
