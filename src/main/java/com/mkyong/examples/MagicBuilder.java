@@ -7,4 +7,8 @@ public class MagicBuilder {
         return lucky;
     }
 
+    public static int getLuckySeventeen() {
+        int lucky = 17;
+        return lucky;
+    }
 }
