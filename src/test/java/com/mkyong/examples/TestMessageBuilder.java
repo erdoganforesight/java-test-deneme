@@ -9,6 +9,7 @@ public class TestMessageBuilder {
     @Test
     public void testHelloWorld() {
         assertEquals("hello world", MessageBuilder.getHelloWorld());
+        assertEquals("hello world", MessageBuilder.getHelloWorld());
     }
 
     @Test
