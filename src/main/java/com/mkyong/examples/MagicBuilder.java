@@ -6,5 +6,9 @@ public class MagicBuilder {
         int lucky = 7;
         return lucky;
     }
-
+    
+    public static int getAnaotherLucky() {
+        int lucky = 13;
+        return lucky;
+    }
 }
