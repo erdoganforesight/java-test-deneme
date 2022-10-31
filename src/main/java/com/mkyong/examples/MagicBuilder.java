@@ -16,6 +16,7 @@ public class MagicBuilder {
     
     public static int getLucky13() {
         int lucky = 13;
+        lucky = 133;
         return lucky;
     }
 
