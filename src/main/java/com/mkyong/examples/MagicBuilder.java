@@ -6,5 +6,18 @@ public class MagicBuilder {
         int lucky = 7;
         return lucky;
     }
+    
+    
+    public static int getLucky17() {
+        int lucky = 17;
+        return lucky;
+    }
+    
+    
+    public static int getLucky13() {
+        int lucky = 13;
+        lucky = 133;
+        return lucky;
+    }
 
 }
