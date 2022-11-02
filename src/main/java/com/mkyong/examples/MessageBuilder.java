@@ -24,6 +24,6 @@ public class MessageBuilder {
         try {
             Thread.sleep(100);
         } catch (Exception ex) {}
-        return 12;
+        return 12
     }
 }
