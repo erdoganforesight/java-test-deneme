@@ -8,7 +8,7 @@ public class MessageBuilder {
     
     
     public static String deneme(){
-        return "deneme";
+        return "denemesdsdsd";
     }
 
     public static int getNumber10(){
