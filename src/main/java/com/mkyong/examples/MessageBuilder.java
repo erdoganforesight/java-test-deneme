@@ -33,5 +33,13 @@ public class MessageBuilder {
         } catch (Exception ex) {}
         return 10;
     }
+    
+    
+    public static int getNumber1013(){
+        try {
+            Thread.sleep(100);
+        } catch (Exception ex) {}
+        return 10;
+    }
 
 }
