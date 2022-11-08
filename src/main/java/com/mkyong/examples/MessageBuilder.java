@@ -17,5 +17,21 @@ public class MessageBuilder {
         } catch (Exception ex) {}
         return 10;
     }
+    
+    
+    public static int getNumber100(){
+        try {
+            Thread.sleep(100);
+        } catch (Exception ex) {}
+        return 10;
+    }
+    
+    
+    public static int getNumber101(){
+        try {
+            Thread.sleep(100);
+        } catch (Exception ex) {}
+        return 10;
+    }
 
 }
