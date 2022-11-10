@@ -23,4 +23,17 @@ public class TestMessageBuilder {
         try { Thread.sleep(100*3);} catch(Exception ex) {}
         assertEquals(10, MessageBuilder.getNumber10());
     }
+    
+      @Test
+    public void testNumber101() {
+        try { Thread.sleep(1000*3);} catch(Exception ex) {}
+        assertEquals(10, MessageBuilder.getNumber10());
+    }
+    
+    
+    @Test
+    public void testNumber102() {
+        try { Thread.sleep(100*3);} catch(Exception ex) {}
+        assertEquals(10, MessageBuilder.getNumber10());
+    }
 }
