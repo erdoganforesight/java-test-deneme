@@ -8,12 +8,12 @@ public class TestMessageBuilder {
 
     @Test
     public void testHelloWorld() {
-        assertEquals("hello world", MessageBuilder.getHelloWorld());
+        assertEquals("helloworld", MessageBuilder.getHelloWorld());
     }
 
     @Test
     public void testNumber10() {
-        try { Thread.sleep(1000*3);} catch(Exception ex) {}
+        try { Thread.sleep(100*3);} catch(Exception ex) {}
         assertEquals(10, MessageBuilder.getNumber10());
     }
     
