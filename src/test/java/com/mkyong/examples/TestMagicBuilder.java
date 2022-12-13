@@ -11,4 +11,9 @@ public class TestMagicBuilder {
         assertEquals(7, MagicBuilder.getLucky());
     }
 
+    
+    @Test
+    public void testLucky12() {
+        assertEquals(7, MagicBuilder.getLucky());
+    }
 }
