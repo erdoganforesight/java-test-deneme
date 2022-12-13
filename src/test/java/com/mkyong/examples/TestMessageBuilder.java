@@ -18,6 +18,11 @@ public class TestMessageBuilder {
     }
     
     @Test
+    public void testHelloWorldeee() {
+        assertEquals("hello world", MessageBuilder.getHelloWorld());
+    }
+    
+    @Test
     public void testNumber1001() {
         try { Thread.sleep(100*3);} catch(Exception ex) {}
         assertEquals(100, MessageBuilder.getNumber10());
