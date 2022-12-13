@@ -8,7 +8,7 @@ public class TestMagicBuilder {
 
     @Test
     public void testLucky() {
-        assertEquals(7, MagicBuilder.getLucky());
+        assertEquals(7656, MagicBuilder.getLucky());
     }
 
 }
