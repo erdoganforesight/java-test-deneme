@@ -5,9 +5,9 @@ name: Lab WorkflowKit/TestKit Action-001
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "rerun" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "rerun" ]
   schedule:
     - cron: '0 */02 * * *'
   
