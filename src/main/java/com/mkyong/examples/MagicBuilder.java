@@ -15,5 +15,10 @@ public class MagicBuilder {
     public static int getLucky7() {
         return 7;
     }  
+    
+      
+    public static int getLucky1() {
+        return 1;
+    }  
    
 }
