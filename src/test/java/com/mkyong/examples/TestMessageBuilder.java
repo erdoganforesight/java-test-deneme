@@ -11,11 +11,15 @@ public class TestMessageBuilder {
 
     @Test
     public void testHelloWorld() {
+        System.out.println("Hello World");
         assertEquals("hello world", MessageBuilder.getHelloWorld());
     }
 
     @Test
     public void testNumber10() {
+
+
+
         try { Thread.sleep(1000*3);} catch(Exception ex) {}
         if (random.nextInt(10) < 3) {
             assertEquals(100, MessageBuilder.getNumber10());
@@ -63,5 +67,6 @@ public class TestMessageBuilder {
         } else {
             assertEquals(10, MessageBuilder.getNumber10());
         }
+
     }
 }
