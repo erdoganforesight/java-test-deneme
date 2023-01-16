@@ -8,7 +8,13 @@ public class MessageUtil {
     try {
       Thread.sleep(100);
       return rand.nextInt(1,100);
-    } catch (Exception ex) {}
-        return 10;
+    } catch (Exception ex) {
+      return 10;
+    }
   }
+  
+  public static int getRandom(int min, int max){
+    return getRandom(min, max);
+  }
+  
 }
