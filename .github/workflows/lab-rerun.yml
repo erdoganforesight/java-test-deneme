@@ -1,19 +1,18 @@
 # This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Lab WorkflowKit/TestKit Action-Flaky
+name: Lab WorkflowKit/TestKit Action-001
 
 on:
   push:
-    branches: [ "rerun" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "rerun" ]
+    branches: [ "main" ]
   schedule:
-    - cron: '0 */06 * * *'
+    - cron: '0 */02 * * *'
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    branches: [ "rerun" ]
 
 env:
   FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
@@ -30,12 +29,11 @@ jobs:
       uses: runforesight/foresight-workflow-kit-action@v1
       if: success() || failure()
       with:
-        api_key: d06a3675-c8ac-4fbf-a80d-b0e5aaae4924  
+        api_key: d06a3675-c8ac-4fbf-a80d-b0e5aaae4924 
     - uses: actions/checkout@v3
     - name: Set up JDK 11
       uses: actions/setup-java@v3
       with:
-        ref: rerun
         java-version: '11'
         distribution: 'temurin'
         cache: maven
@@ -46,7 +44,6 @@ jobs:
       if: success() || failure()
       with:
         api_key: d06a3675-c8ac-4fbf-a80d-b0e5aaae4924
-        # d06a3675-c8ac-4fbf-a80d-b0e5aaae4924
         test_format: JUNIT
         test_framework: JUNIT
         test_path: target/surefire-reports/**   
