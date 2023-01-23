@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MessageUtil {
   
-  private Random rand = new Random();
+  private static Random rand = new Random();
 
   public static int getRandom(){
     try {
