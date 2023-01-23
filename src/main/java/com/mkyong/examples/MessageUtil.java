@@ -1,5 +1,7 @@
 package com.mkyong.examples;
 
+import java.util.*;
+
 public class MessageUtil {
   
   private Random rand = new Random();
