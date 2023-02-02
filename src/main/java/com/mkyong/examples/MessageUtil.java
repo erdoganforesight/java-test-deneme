@@ -9,7 +9,7 @@ public class MessageUtil {
   public static int getRandom(){
     try {
       Thread.sleep(100);
-      return rand.nextInt(1,100);
+      return rand.nextInt(100);
     } catch (Exception ex) {}
         return 10;
   }
