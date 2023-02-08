@@ -19,4 +19,10 @@ public class MagicBuilder {
         int sum = 5;
         return lucky;
     }
+    
+    public static int deneme33() {
+        int lucky = 7;
+        int sum = 5;
+        return lucky;
+    }
 }
