@@ -11,7 +11,9 @@ public class MagicBuilder {
       public static int deneme4() {
         int lucky = 7;
         int sum = 5;
-        return lucky;
+        if (lucky == 8) {
+            return lucky;
+        }
     }
     
       public static int deneme() {
